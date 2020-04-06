@@ -7,8 +7,8 @@ TARGET = xrecord-example
 INCLUDEPATH += .
 
 CONFIG += link_pkgconfig
-CONFIG += c++11 
-PKGCONFIG += xcb xcb-util
+CONFIG += c++11
+PKGCONFIG += xcb
 
 # Input
 HEADERS += src/event_monitor.h
